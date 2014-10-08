@@ -130,6 +130,8 @@ module OmniAuth
           :access_token => access_token
         }).parsed
         raw_response['issued_to'] == options.client_id
+        
+        return true
       end
     end
   end
